@@ -21,6 +21,7 @@
         overflowJobs:
           - Passenger
         availableJobs:
+          Passenger: [ -1, -1 ]
           Captain: [ 1, 1 ]
         #service
           HeadOfPersonnel: [ 1, 1 ]
@@ -39,6 +40,10 @@
           AtmosphericTechnician: [ 1, 2 ]
           StationEngineer: [ 2, 3 ]
           TechnicalAssistant: [ 2, 2 ]
+        #justice
+          ChiefJustice: [ 1, 1 ]
+          Clerk: [ 1, 1 ]
+          Prosecutor: [ 1, 1 ]
         #medical
           ChiefMedicalOfficer: [ 1, 1 ]
           Chemist: [ 1, 2 ]

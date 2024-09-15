@@ -3,7 +3,7 @@
   name: guide-entry-jobs
   text: "/ServerInfo/Guidebook/Jobs.xml"
   children:
-  - Justicee
+  - Justice
   - Bartender
   - Chef
   - Botany
@@ -16,7 +16,7 @@
   - Medical
 
 - type: guideEntry
-  id: Justicee
+  id: Justice
   name: guide-entry-justice
   text: "/ServerInfo/Guidebook/DeltaV/Justice.xml"
 
@@ -48,6 +48,7 @@
   id: Food Recipes
   name: guide-entry-foodrecipes
   text: "/ServerInfo/Guidebook/Service/FoodRecipes.xml"
+  filterEnabled: true
 
 - type: guideEntry
   id: Food Pirata
